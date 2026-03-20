@@ -1,6 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion";
 import Navigation from "./components/Navigation";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
@@ -40,7 +40,7 @@ function AppInner() {
           </motion.div>
         </AnimatePresence>
       </div>
-      <Footer onNavigate={navigateTo} />
+        {/* <Footer onNavigate={navigateTo} /> */}
     </div>
   );
 }
